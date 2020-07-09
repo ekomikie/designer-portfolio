@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Raleway', sans-serif;";
+  }
+  
+  
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("../images/align-right\ \(1\).svg");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color:transparent;
+  } 
+
+   /* NAVBAR */
+   
+
+  /* HEADER-SECTION */
+  .header{
+      background-image: url("../images/main-pic.png");
+      background-size: cover;
+      height: 600px;
+      background-position: top;
+      
+      background-repeat: no-repeat;
+     
+  }
+  .nav-logo{
+    font-family:'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    
+  }
+  .nav-link:hover{
+      background-color: orange;
+  }
+
+  .nav-icons{
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: lighter;
+  }
+
+  .header-text{
+    font-family: 'Open Sans';
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .header-name{
+    font-family:'Raleway';
+    font-size: 64px;
+    line-height: 75px;
+  }
+
+  .header-title{
+    font-family: 'Open Sans;';
+    font-style: italic;
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .header-btn{
+      border-radius: 0px;
+    background: #3B4E58;
+    opacity: 0.8;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    line-height: 33px;
+
+  }
+
+  .header-btn:hover{
+      color: orange;
+  }
+
+  /* SERVICES-SECTION */
+  .services-heading{
+    font-family:'Raleway';
+    font-size: 40px;
+    line-height: 47px;
+    color: #3B4E58;
+  }
+
+  .services-light-bg{
+      background-color: #E5E5E5;
+      height: 300px;
+  }
+
+  
+  .services-sub-title{
+    font-family: 'Raleway';
+    font-size: 24px;
+    line-height: 28px;
+    color: #3B4E58;
+    
+  }
+
+  .services-dark-bg{
+    background-color: #3B4E58;
+    color: white;
+    height: 300px;
+  }
+  .services-dark-sub-title{
+    font-family: 'Raleway';
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    
+  }
+  /* PORT-FOLIO-SECTION */
+  .port-folio-bg{
+    background: rgba(59, 78, 88, 0.27);
+  }
+  .port-folio-header{
+      padding-top: 40px;
+  } 
+  .port-folio-main-header{
+    font-family: 'Raleway';
+    font-size: 24px;
+    line-height: 28px;
+
+  }
+
+  .port-folio-sub-header{
+    font-family: 'Raleway';
+    font-size: 40px;
+    line-height: 47px;
+
+  }
+  .portfolio-title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+  }
+/* ABOUT ME SECTION */
+  .about-me-header{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+
+    padding-bottom: 15px;
+  }
+
+  .about-me-box-2{
+    display: none;
+  }
+
+  .about-me-text{
+    font-family:'Open Sans', sans-serif ;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 3.0;
+letter-spacing: 0.2rem;
+}
+
+/* CONTACT-SECTION */
+.contact-bg-image {
+    background-image: url("../images/contact-bg-image2.png");
+    background-size: cover;
+    
+  }
+
+  .contact-heading{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+  }
+
+  .contact-inputs{
+    border-radius:0px;
+  }
+
+  .submit-btn{
+    background-color: #3B4E58;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+  }
+  
+
+  /* FOOTER */
+  .footer-bg{
+      background-color: #3B4E58;
+  }
+
+  .footer-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+  }
+/* 
+  MEDIA-QUERIES */
+  @media (max-width: 575px){
+    .header{
+        background-image: url("../images/mobile-header-pic.png");
+    }
+
+    .nav-logo{
+        font-size: 20px;
+        line-height: 24px;
+        
+      }
+
+      .nav-icons{
+        font-size: 15px;
+        line-height: 18px;
+      }
+
+      .header-text{
+        font-family: 'Open Sans';
+        font-size: 20px;
+        line-height: 29px;
+      }
+
+      .header-name{
+        font-family:'Raleway';
+        font-size: 50px;
+        line-height: 68px;
+      }
+
+      .header-title{
+        font-family: 'Open Sans;';
+        font-style: italic;
+        font-size: 19px;
+        line-height: 25px;
+      }
+
+      .header-btn{
+        border-radius: 0px;
+      background: #3B4E58;
+      opacity: 0.8;
+      color: white;
+      font-family: 'Open Sans';
+      font-size: 19px;
+      line-height: 25px;
+  
+    }
+    .jane-doe{
+       padding-right:5% ; 
+    }
+
+    .services-heading{
+        font-size: 27px;
+        line-height: 32px;
+        
+      }
+
+      .services-sub-title{
+        font-family: 'Raleway';
+        font-size: 19px;
+        line-height: 20px;
+        color: #3B4E58;
+        
+      }
+
+      .services-dark-sub-title{
+        font-family: 'Raleway';
+        font-size: 19px;
+        line-height: 20px;
+        color: #FFFFFF;
+        
+      }
+
+      .portfolio{
+        margin-top: 12%;
+      }
+
+      .port-folio-main-header{
+        font-family: 'Raleway';
+        font-size: 18px;
+        line-height: 22px;
+    
+      }
+
+      .port-folio-sub-header{
+        font-family: 'Raleway';
+        font-size: 28px;
+        line-height: 32px;
+    
+      }
+
+      .portfolio-title{
+       
+        font-size: 20px;
+        line-height: 24px;
+      }
+
+      .about-me-box-2{
+        display: block;
+
+      }
+
+      .about-me-box-1{
+        display: none;
+      }
+
+      .about-me-header{
+        font-size: 17px;
+        line-height: 1.0;
+       
+        font-size: 20px;
+        padding-top: 30px;
+    
+       
+      }
+
+      .about-me-pic{
+          order: 2;
+      }
+
+      .google-map{
+          display: none;
+      }
+
+      .about-me-text{
+    font-size: 15px;
+    line-height: 2.0;
+    letter-spacing: 0.15rem;
+    }
+
+    .contact-heading{
+        font-size: 17px;
+        
+      }
+    
+      .submit-btn{
+        background-color: #3B4E58;
+        font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+      }
+
+
+      .footer-text{
+        font-size: 14px;
+        line-height: 20px;
+      }
+    
+
+  }
