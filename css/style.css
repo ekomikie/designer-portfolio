@@ -50,6 +50,25 @@
     font-weight: lighter;
   }
 
+.jane-doe{
+   animation:moveInRight 2s ease-out; 
+  }
+
+  @keyframes moveInRight {
+    0%{
+      opacity: 0;
+      transform:translateX(200px) ;
+    }
+    80%{
+      
+      transform:translateX(-15px) ;
+    }
+    100%{
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
   .header-text{
     font-family: 'Open Sans';
     font-size: 24px;
@@ -72,17 +91,39 @@
   .header-btn{
       border-radius: 0px;
     background: #3B4E58;
-    opacity: 0.8;
+    
     color: white;
     font-family: 'Open Sans';
     font-size: 24px;
+    outline: none;
     line-height: 33px;
+    opacity:0;
+    animation-name: btn;
+    animation-duration: 2s;
+    animation-delay:2s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration: 2s;
+    
 
   }
 
   .header-btn:hover{
-      color: orange;
+    transform: rotateY(360deg);
+    color: orange;
   }
+  
+
+@keyframes btn {
+    0%{
+        opacity: 0;
+        
+    }
+    100%{
+        opacity: 0.8;
+    }
+}
+
 
   /* SERVICES-SECTION */
   .services-heading{
@@ -227,6 +268,7 @@ line-height: 28px;
       .nav-icons{
         font-size: 15px;
         line-height: 18px;
+         display:inline-block;
       }
 
       .header-text{
